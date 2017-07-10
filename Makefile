@@ -1,5 +1,5 @@
 CC=g++
-CFLAGS=-O3 -fpermissive -I fftw++-1.13/ -L /usr/lib/ -lfftw3_threads -lfftw3 -lm #-I boost_1_53_0/
+CFLAGS=-O3 -fpermissive -I fftw++-1.13/ -L /usr/lib/ -lfftw3 -lfftw3_omp -lm#-I boost_1_53_0/
 
 all: phi4model
 
