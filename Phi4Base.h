@@ -28,24 +28,6 @@ using namespace std;
 using namespace Array;
 using namespace fftwpp;
 
-/*Segédosztály: 3d array*/
-
-namespace fftwpp {
-
-std::ifstream fftw::ifWisdom;
-std::ofstream fftw::ofWisdom;
-bool fftw::Wise=false;
-//Original
-//const double fftw::twopi=2.0*acos(-1.0);
-//Changed:
-const double fftw::twopi=2.0*M_PI;
-
-
-
-// User settings:
-unsigned int fftw::effort=FFTW_MEASURE;
-const char *fftw::WisdomName="wisdom3.txt";
-}
 
 
 //random generátor

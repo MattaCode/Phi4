@@ -24,7 +24,7 @@ using namespace std;
 using namespace Array;
 using namespace fftwpp;
 
-//SVN Próba
+
 
 //Tesztesetek
 
