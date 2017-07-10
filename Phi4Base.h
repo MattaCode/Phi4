@@ -18,12 +18,12 @@ Tartalmazza a szükséges osztálydefiníciókat
 #include<math.h>
 #include <cstdlib>
 #include <ctime> 
-
+#include <boost/random/uniform_real_distribution.hpp>
+#include <boost/random/mersenne_twister.hpp>
 #include "Array.h"
 #include "fftw3.h"
 #include "fftw++.h"
-#include "boost_1_53_0/boost/random/uniform_real_distribution.hpp"
-#include "boost/random/mersenne_twister.hpp"
+
 using namespace std;
 using namespace Array;
 using namespace fftwpp;
